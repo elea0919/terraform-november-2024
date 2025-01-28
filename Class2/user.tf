@@ -16,3 +16,7 @@ resource "aws_iam_group_membership" "team" {
 resource "aws_iam_group" "group" {
   name = "blackpink"
 }
+
+resource "aws_iam_user" "manual" {
+  name = "hello"
+}
